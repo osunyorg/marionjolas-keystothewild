@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
@@ -22,6 +15,13 @@ items:
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
+- title: Projets
+  target: "/projets/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
