@@ -8,11 +8,18 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Log
+- title: Blog
   target: "/log/"
   kind: page
   new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/ressources"
+  file: content/fr/pages/ressources/_index.html
 
