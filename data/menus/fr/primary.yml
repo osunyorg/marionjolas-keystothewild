@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Zombies
+- title: TechnoZombies
   target: "/projets/"
   kind: page
   new_tab: false
