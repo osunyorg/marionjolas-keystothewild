@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-05-26T18:33:18+02:00
-lastmod: 2026-01-19T17:55:45+01:00
+lastmod: 2026-01-19T18:07:35+01:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-05-26T18:33:18+02:00
-    updated_at: 2026-01-19T17:55:45+01:00
+    updated_at: 2026-01-19T18:07:35+01:00
     published_at: 2025-05-26T18:33:18+02:00
 search:
   id: "5b572862-0e00-4c8c-97e1-2431666fb33d"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>  TechnoZombieZine documents the strange lives of forgotten electronics, turning obsolete smartphones, intercoms, and gadgets into experimental installations. Hacks, repairs, and rewiring experiments reveal how e-waste can blink, sing, and whisper new tales about countering obsolescence.</p>
   body: >-
-    
+    <p>What's new in the blog ? </p>  <p> TechnoZombies </p>
 
 breadcrumbs:
   - title: >-
@@ -71,7 +71,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
@@ -89,6 +89,90 @@ contents:
       mode: all
       all: true
       layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+
+      quantity: 0
+
+  - kind: block
+    template: posts
+    title: >-
+      What's new in the blog ?
+    slug: >-
+      what-s-new-in-the-blog
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          What's new in the blog ?
+        heading: 2
+        link: "/log/"
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/log/2025-05-26-standards/"
+          path: "/posts/2025/2025-05-26-standards"
+          slug: "standards"
+          file: "content/fr/posts/2025/2025-05-26-standards.html"
+          name: >-
+            Standards
+        - permalink: "/log/2026-01-11-inside-the-zombie-05/"
+          path: "/posts/2026/2026-01-11-inside-the-zombie-05"
+          slug: "inside-the-zombie-05"
+          file: "content/fr/posts/2026/2026-01-11-inside-the-zombie-05.html"
+          name: >-
+            Inside the zombie #05
+        - permalink: "/log/2026-01-11-inside-the-zombie-02/"
+          path: "/posts/2026/2026-01-11-inside-the-zombie-02"
+          slug: "inside-the-zombie-02"
+          file: "content/fr/posts/2026/2026-01-11-inside-the-zombie-02.html"
+          name: >-
+            Inside the Zombie #02
+
+      quantity: 3
+
+
+  - kind: block
+    template: projects
+    title: >-
+      TechnoZombies
+    slug: >-
+      technozombies
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          TechnoZombies
+        heading: 2
+        link: "/projets/"
+    data:
+      mode: all
+      all: true
+      layout: large
       options:
         categories: true
         image: true
