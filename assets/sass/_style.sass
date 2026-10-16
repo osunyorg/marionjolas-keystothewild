@@ -1,0 +1,40 @@
+footer#document-footer .logo .logo-text, header#document-header .logo .logo-text 
+    
+    font-variation-settings: "opsz" 12, "wght" 700, "wdth" 300
+    transition: font-variation-settings 0.5s ease
+    &:hover,:active
+        font-variation-settings: "opsz" 30, "wght" 800, "wdth" 100
+
+.menu
+    .nav-level-1
+        li
+            a
+                font-size: 1.2rem
+                font-variation-settings: "opsz" 12, "wght" 300, "wdth" 300
+                transition: font-variation-settings 0.5s ease
+                &:hover
+                    font-variation-settings: "opsz" 50, "wght" 800, "wdth" 100
+h3
+    font-variation-settings: "opsz" 12, "wght" 400, "wdth" 300
+    transition: font-variation-settings 0.5s ease
+    &:hover, :active
+        font-variation-settings: "opsz" 40, "wght" 700, "wdth" 100
+
+
+.hero
+    .content
+        p
+            letter-spacing: -.04em !important
+            font-weight: 400 !important
+
+.footer-logo
+    size: pxToRem(100)
+
+header#document-header
+    .primary-menu
+        padding: 10px 0px
+        .container
+            flex-direction: row-reverse
+            .logo
+                .logo-text
+                display: none

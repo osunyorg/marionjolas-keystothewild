@@ -4,7 +4,12 @@ params:
   summary:
     position: hero
   search:
-    active: true
+    active: false
   logo:
     header: ''
-    footer: ''
+    footer: "/assets/images/footer.png"
+  images:
+    qr:
+      enabled: false
+search:
+  active: false
